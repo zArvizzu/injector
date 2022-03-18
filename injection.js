@@ -27,13 +27,13 @@ var loggedOut = true;
 session.defaultSession.webRequest.onBeforeRequest({
     'urls': [
         'https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json',
-        'https:/applications/detectable',
+        'https://*.discord.com/api/v*/applications/detectable',
         'https://discord.com/api/v*/applications/detectable',
-        'https:/users/@me/library',
+        'https://*.discord.com/api/v*/users/@me/library',
         'https://discord.com/api/v*/users/@me/library',
-        'https:/users/@me/billing/subscriptions',
+        'https://*.discord.com/api/v*/users/@me/billing/subscriptions', //
         'https://discord.com/api/v*/users/@me/billing/subscriptions',
-        'wss://remote-auth-gateway.discord.gg/*'
+        'wss://remote-auth-gateway.discord.gg/*' 
     ]
 }, (details, callback) => {
     const window = BrowserWindow.getAllWindows()[0];
